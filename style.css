@@ -57,22 +57,28 @@ body {
 
 .card .title {
     padding: 0.7rem 1rem;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     color: #666;
 }
 .card .orderNow {
+    text-align: center;
     padding: 0 0 0.5rem 0;
     font-size: 18px;
     font-weight: 600;
 }
 .card .orderNow a{
+    font-size: 0.9rem;
     color: #666;
     text-decoration: none;
 }
+.card .orderNow p{
+    padding: 0;
+    margin: 0;
+}
 
 .card .desc {
-    padding: 1rem 1rem;
+    padding: 1rem;
     -webkit-box-ordinal-group: 3;
     order: 2;
     text-align: center;
